@@ -72,7 +72,7 @@ section {
 .card {
             background-color: #D3D3D3;
             position: flex;
-            animation: mymove 10s infinite;
+            animation: mymove 5s infinite;
             opacity:0.5;
             margin-left: 25px;
           }
