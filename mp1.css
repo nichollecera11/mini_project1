@@ -45,7 +45,374 @@ body {
       background-position: relative;
       background-size: cover;}
 
+      /*BANNER*/
 
+.banner-image {background-image: url('images/Trianglify')}
+
+.txt_view {
+	 overflow:hidden;
+	 position:relative;
+	 width:978px;
+	 height:300px;
+	  box-sizing:border-box;
+	  -webkit-box-sizing:border-box;
+	  -moz-box-sizing:border-box;
+}
+.actionTxtType8 {
+	 padding:80px 0 0;
+	 text-align:center;
+}
+.actionTxtType8 .txt {
+	 font-size:60px;
+	 line-height:100px;
+	 color:#35352f;
+	 font-weight:700;
+	 text-transform:uppercase;
+}
+.actionTxtType8 .txt span {
+	 white-space:pre-line;
+	 position:relative;
+	 letter-spacing:7px;
+	 transition:text-shadow .5s;
+	 -webkit-transition:text-shadow .5s;
+	 -moz-transition:text-shadow .5s;
+}
+.actionTxtType8 .txt span.gap {
+	 margin-right:15px;
+}
+.actionTxtType8 .txt > span:before{
+	 position:absolute;
+	 left:0;
+	 content:attr(data-content);
+	 color:#7acdc2;
+	 overflow:hidden;
+	 width:0%;
+	 transition:width .8s .6s;
+	 -webkit-transition:width .8s .6s;
+	 -moz-transition:width .8s .6s;
+}
+.actionTxtType8:hover .txt span {
+	 color:#3da89a;
+	 text-shadow:-1px -1px 5px #fff,1px 1px 1px #666,2px 2px 1px #666,3px 3px 1px #666,4px 4px 1px #666,5px 5px 1px #666,6px 6px 1px #caf0eb,7px 7px 1px #666,8px 8px 1px #666,9px 9px 1px #666,10px 10px 1px #666;
+}
+.actionTxtType8:hover .txt > span:before {
+	 width:50%;
+}
+
+      /*AboutMeHeader*/
+      .txt_view {
+        overflow:hidden;
+        position:relative;
+        width:978px;
+        height:300px;
+         box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+     }
+     .actionTxtType2 .box {
+        position:relative;
+        margin: 20px auto;
+        width:938px;
+        height:258px;
+        line-height: 258px;
+     }
+     .actionTxtType2 .txt_move {
+        width:100%;
+        text-align:center;
+        color:#444;
+        font-size:55px;
+        text-transform:uppercase;
+        font-weight:700;
+        opacity:0;
+        transform:translateY(-5%);
+        -webkit-transform:translateY(-5%);
+        -moz-transform:translateY(-5%);
+        -webkit-transition: all .7s cubic-bezier(0.550, 0.155, 0.610, 1);
+        -webkit-transition: all .7s cubic-bezier(0.550, 0.155, 0.610, 1.120);
+        -moz-transition: all .7s cubic-bezier(0.550, 0.155, 0.610, 1.120);
+        transition: all .7s cubic-bezier(0.550, 0.155, 0.610, 1.120);
+     }
+     .actionTxtType2 .line {
+        position:absolute;
+        width:100%;
+        height:100%;
+        left:0;
+        top:0;
+        margin: 0;
+        background-color:transparent;
+        box-sizing: border-box;
+     }
+     .actionTxtType2 .line.Ltop {
+        border-top:2px solid #444;
+        transform:scale(0,1);
+        -webkit-transform:scale(0,1);
+        -moz-transform:scale(0,1);
+        -ms-transform:scale(0,1);
+        transform-origin:left;
+        -webkit-transform-origin:left;
+        -moz-transform-origin:left;
+        -ms-transform-origin:left;
+        transition:transform .3s .3s;
+        -webkit-transition:-webkit-transform .3s .3s;
+        -moz-transition:-moz-transform .3s .3s;
+     }
+     .actionTxtType2 .line.Lbottom {
+        border-bottom:2px solid #444;
+        transform:scale(0,1);
+        -webkit-transform:scale(0,1);
+        -moz-transform:scale(0,1);
+        -ms-transform:scale(0,1);
+        transform-origin:left;
+        -webkit-transform-origin:left;
+        -moz-transform-origin:left;
+        -ms-transform-origin:left;
+        transition:transform .2s .6s;
+        -webkit-transition:-webkit-transform .2s .6s;
+        -moz-transition:-moz-transform .2s .6s;
+     }
+     .actionTxtType2 .line.Lleft {
+        border-left:2px solid #444;
+        height:100%;
+        transform:scale(1,0);
+        -webkit-transform:scale(1,0);
+        -moz-transform:scale(1,0);
+        -ms-transform:scale(1,0);
+        transform-origin:left top;
+        -webkit-transform-origin:left top;
+        -moz-transform-origin:left top;
+        -ms-transform-origin:left top;
+        transition:transform .3s .3s;
+        -webkit-transition:-webkit-transform .3s .3s;
+        -moz-transition:-moz-transform .3s .3s;
+     }
+     .actionTxtType2 .line.Lright {
+        border-right:2px solid #444;
+        height:100%;
+        transform:scale(1,0);
+        -webkit-transform:scale(1,0);
+        -moz-transform:scale(1,0);
+        -ms-transform:scale(1,0);
+        transform-origin:left top;
+        -webkit-transform-origin:left top;
+        -moz-transform-origin:left top;
+        -ms-transform-origin:left top;
+        transition:transform .2s .6s;
+        -webkit-transition:-webkit-transform .2s .6s;
+        -moz-transition:-moz-transform .2s .6s;
+     }
+     .actionTxtType2:hover .txt_move {
+        opacity:1;
+        transform:none;
+        -webkit-transform:none;
+        -moz-transform:none;
+        -ms-transform:none;
+     }
+     .actionTxtType2:hover .Ltop {
+        transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+     }
+     .actionTxtType2:hover .Lleft {
+        transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+     }
+     .actionTxtType2:hover .Lbottom {
+        transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+     }
+     .actionTxtType2:hover .Lright {
+        transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+     }
+
+/*Scope of Support*/
+      .txt_view {
+        overflow:hidden;
+        position:relative;
+        width:978px;
+        height:300px;
+         box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+     }
+     .actionTxtType1 {
+        padding:30px 40px;
+     }
+     .actionTxtType1 .txt_move {
+        position:relative;
+        display:inline-block;
+        margin-bottom:25px;
+        font-size:30px;
+        line-height:35px;
+        text-transform:uppercase;
+        font-weight:700;
+        letter-spacing:3px;
+        transform:translateY(12px);
+        -webkit-transform:translateY(12px);
+        -moz-transform:translateY(12px);
+        opacity:0;
+        transition:all .5s;
+        -webkit-transition:all .5s;
+        -moz-transition:all .5s;
+     }
+     .actionTxtType1 .txt_move.txt1 {
+        margin-top: 10px;
+        font-family: Air America;
+        letter-spacing: 10px;
+     }
+     .actionTxtType1 .txt_move.txt2 {
+        transition-delay:.2s;
+        -webkit-transition-delay:.2s;
+        -moz-transition-delay:.2s;
+     }
+     .actionTxtType1 .txt_move.txt3 {
+        transition-delay:.3s;
+        -webkit-transition-delay:.3s;
+        -moz-transition-delay:.3s;
+     }
+     .actionTxtType1 .txt_move:after {
+        position:absolute;
+        top:35px;
+        right:0;
+        display:block;
+        width:100%;
+        height:3px;
+        content:'';
+        background-color:#444;
+        opacity:0;
+        transition:opacity .1s .7s;
+        -webkit-transition:opacity .1s .7s;
+        -moz-transition:opacity .1s .7s;
+     }
+     .actionTxtType1:hover .txt_move {
+        transform:translateY(0);
+        -webkit-transform:translateY(0);
+        -moz-transform:translateY(0);
+        opacity:1;
+     }
+     .actionTxtType1:hover .txt_move:after  {
+        opacity:1;
+     }
+     .actionTxtType1:hover .txt_move.txt1:after {
+        animation:Txtline_movetxt1 2.5s .7s;
+        -webkit-animation:Txtline_movetxt1 2.5s .7s;
+        -moz-animation:Txtline_movetxt1 2.5s .7s;
+     }
+     .actionTxtType1:hover .txt_move.txt2:after {
+        animation:Txtline_movetxt2 2.5s .7s;
+        -webkit-animation:Txtline_movetxt2 2.5s .7s;
+        -moz-animation:Txtline_movetxt2 2.5s .7s;
+     }
+     .actionTxtType1:hover .txt_move.txt3:after {
+        animation:Txtline_movetxt3 2.5s .7s;
+        -webkit-animation:Txtline_movetxt3 2.5s .7s;
+        -moz-animation:Txtline_movetxt3 2.5s .7s;
+     }
+     @keyframes Txtline_movetxt1{
+     0%{
+        width:0%;
+     }
+     25%{
+        width:115%;
+     }
+     52%{
+        width:115%;
+     }
+     57%{
+        width:100%;
+     }
+     100%{
+        width:100%;
+     }}
+     @-webkit-keyframes Txtline_movetxt1{
+     0%{
+        width:0%;
+     }
+     25%{
+        width:115%;
+     }
+     52%{
+        width:115%;
+     }
+     57%{
+        width:100%;
+     }
+     100%{
+        width:100%;
+     }}
+     @keyframes Txtline_movetxt2{
+     0%{
+        width:0%;
+     }
+     25%{
+        width:115%;
+     }
+     62%{
+        width:115%;
+     }
+     67%{
+        width:100%;
+     }
+     100%{
+        width:100%;
+     }}
+     @-webkit-keyframes Txtline_movetxt2{
+     0%{
+        width:0%;
+     }
+     25%{
+        width:115%;
+     }
+     62%{
+        width:115%;
+     }
+     67%{
+        width:100%;
+     }
+     100%{
+        width:100%;
+     }}
+     @keyframes Txtline_movetxt3{
+     0%{
+        width:0%;
+     }
+     25%{
+        width:115%;
+     }
+     72%{
+        width:115%;
+     }
+     77%{
+        width:100%;
+     }
+     100%{
+        width:100%;
+     }}
+     @-webkit-keyframes Txtline_movetxt3{
+     0%{
+        width:0%;
+     }
+     25%{
+        width:115%;
+     }
+     72%{
+        width:115%;
+     }
+     77%{
+        width:100%;
+     }
+     100%{
+        width:100%;
+     }}
+
+/*Nichol Lecera Animation */
 .actionBtn8 {
   overflow:hidden;
   display:inline-block;
@@ -145,22 +512,14 @@ body {
 .actionBtn8:hover .btn_ico span img {
   opacity:1;
 }
-
-  
-.banner-image {background: url('images mp1/Trianglify.png');
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-                padding: 25%;
-                color: gold;
-                }   
-                
+          
         
 section {
         background: url('images\ mp1/Trianglify.png');
         background-repeat: repeat;
         background-size: cover;
         background-position: relative;
+
         
 }
 
