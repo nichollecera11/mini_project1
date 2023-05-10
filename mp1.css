@@ -53,7 +53,7 @@ body {
 	 overflow:hidden;
 	 position:relative;
 	 width:978px;
-	 height:300px;
+	 height: 300px;
 	  box-sizing:border-box;
 	  -webkit-box-sizing:border-box;
 	  -moz-box-sizing:border-box;
@@ -84,7 +84,7 @@ body {
 	 position:absolute;
 	 left:0;
 	 content:attr(data-content);
-	 color:#7acdc2;
+	 color:gold;
 	 overflow:hidden;
 	 width:0%;
 	 transition:width .8s .6s;
@@ -92,7 +92,7 @@ body {
 	 -moz-transition:width .8s .6s;
 }
 .actionTxtType8:hover .txt span {
-	 color:#3da89a;
+	 color:goldenrod;
 	 text-shadow:-1px -1px 5px #fff,1px 1px 1px #666,2px 2px 1px #666,3px 3px 1px #666,4px 4px 1px #666,5px 5px 1px #666,6px 6px 1px #caf0eb,7px 7px 1px #666,8px 8px 1px #666,9px 9px 1px #666,10px 10px 1px #666;
 }
 .actionTxtType8:hover .txt > span:before {
