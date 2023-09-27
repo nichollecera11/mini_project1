@@ -3,6 +3,35 @@
     padding: 0px;
     }
 
+@media screen and (min-width: 480px){
+   #navbar {
+      flex-direction: column;
+
+   }
+   #nichollecera {
+      display: flex;
+   }
+   #nichollecera2 {
+      flex-direction: column;
+   }
+   #nichollecera3 {
+      flex-direction: column;
+   }
+   body {
+      flex-direction: column;
+   }
+   .dropdown {
+      flex-direction: column;
+   }
+   .navbar-toggler {
+      display: flex;
+   }
+}
+
+   .container-fluid {
+      display: flex;
+      flex-direction: row;
+   }
     .flex-container 
     { 
         display: flex;
@@ -40,6 +69,10 @@ div#hover3:hover, div#hover3:active {background:gold;}
 div#hover4:hover, div#hover4:active {background:gold;}
 
 body {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
       background-image: url('images/Trianglify');
       background-repeat: repeat;
       background-position: relative;
